@@ -20,7 +20,7 @@ for i in range(n_stu):
 
     student[id] = name, dob, marks
 
-#Listing funtion
+#Listing function
 def list_course(): 
     for id, (name, dob, marks) in student.items():
         print("Courses for student", id, ": ", ', '.join(marks.keys()))
